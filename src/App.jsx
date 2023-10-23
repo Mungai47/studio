@@ -1,8 +1,23 @@
-import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Agency from './pages/Agency'
+import Portfolio from './pages/Portfolio'
+import Team from './pages/Team'
+import Services from './pages/Services'
+import ContactUs from './pages/ContactUs'
+import Header from './components/Header'
 
 function App() {
   return (
-    <h1 className="text-red-600">App</h1>
+    <BrowserRouter>
+    <Header />
+    <Routes>
+      <Route path="/" element={<Agency />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/team" element={<Team />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/contact-us" element={<ContactUs />} />
+    </Routes>
+    </BrowserRouter>    
   )
 }
 
