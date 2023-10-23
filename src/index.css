@@ -8,3 +8,8 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.hollow{
+    -webkit-text-stroke:1px black;
+    -webkit-text-fill-color:transparent;   
+}

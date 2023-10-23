@@ -21,7 +21,7 @@ function Header() {
             {showNav ? 'close' : 'Menu'}
           </button>
         </div>
-        <ul className={`lg:flex lg:flex-wrap lg:gap-5 lg:text-lg lg:font-medium ${showNav ? 'block' : 'hidden'}`}>
+        <ul className={`lg:flex lg:flex-wrap lg:gap-5 lg:text-md lg:font-medium ${showNav ? 'block' : 'hidden'}`}>
           <Link to="/">
               <li className="hover:underline">AGENCY</li>
           </Link>
