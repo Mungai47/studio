@@ -11,8 +11,8 @@ function Hero() {
         <div className="absolute z-2">
             <img  />
         </div>
-        <div className="absolute z-3 ">
-            <button className="bg-transparent hover:bg-black hover:text-white font-extralight rounded-full p-3  outline outline-black">
+        <div className="absolute z-3 inset-x-auto bottom-5 ">
+            <button className="bg-transparent hover:bg-black hover:text-white font-extralight rounded-full p-2  outline outline-1 outline-black">
                 VIEW MY WORK
             </button>
         </div>
